@@ -11,12 +11,12 @@ app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
   res.render('index');
-})
+});
 
 io.on('connection', (socket) => {
   socket.on('chat message', (msg) => {
     io.emit('chat message', msg);
   });
-})
+});
 
 export default server;
