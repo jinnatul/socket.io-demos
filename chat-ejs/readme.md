@@ -45,7 +45,7 @@ socket.on('chat message', (msg) => {
 
 - Demo
 <p align='center'>
-  <img src='demo/chat-ejs.gif' height='400'    weight='750'>
+  <img src='demo/chat-ejs.gif' height='246' weight='600'>
 </p>
 
 ### To run the project
